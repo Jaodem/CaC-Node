@@ -1,0 +1,10 @@
+h1 {
+    border: 2px solid blue;
+}
+
+.content {
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    max-width: 500px;
+}

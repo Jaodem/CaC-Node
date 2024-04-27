@@ -1,0 +1,13 @@
+.primero {
+    border: 1px solid black;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.segundo {
+    border: 1px solid red;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

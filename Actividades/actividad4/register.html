@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina de Mamá</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="index.html">Home</a>
+            <a class="nav" href="about.html">Acerca de mí</a>
+            <a class="nav" href="contact.html">Contacto</a>
+            <a class="nav" href="register.html">Regístrese</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+        </nav>
+        <br>
+        <h1>La Cocina de Mamá</h1>
+    </header>
+
+    <menu>
+        <h2>Formulario de Registro</h2>
+        <form action="show_data.html" target="_blank">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            </div>
+            <br>
+            <div>
+                <label for="direccion">Dirección:</label>
+                <br>
+                <br>
+                <label for="calle">Calle:</label>
+                <input type="text" name="calle" id="calle" placeholder="Ingrese su calle" required>
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero" placeholder="Ingrese el número" required>
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su ciudad" required>
+                <label for="cp">Código Postal:</label>
+                <input type="number" name="cp" id="cp" placeholder="Ingrese el código postal" required>
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Teléfono;</label>
+                <input type="number" name="telefono" id="telefono" placeholder="Ingrese su teléfono" required>
+                <label for="nacimiento">Fecha de Nac:</label>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+                <label for="mail">Mail:</label>
+                <input type="email" name="mail" id="mail" placeholder="Ingrese su mail" required>
+                <label for="clave">Clave:</label>
+                <input type="password" name="clave" id="clave" placeholder="Ingrese la clave" required>
+                <label for="link">Link del TP 3:</label>
+                <input type="url" name="link" id="link" placeholder="Pegue el link" required>
+            </div>
+            <br>
+            <div>
+                <label for="genero">
+                    Género: (Radio)
+                    <input type="radio" name="genero" id="hombre" value="hombre">Hombre
+                    <input type="radio" name="genero" id="mujer" value="mujer">Mujer
+                    <input type="radio" name="genero" id="otro" value="otro">Otro
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="">Conocimientos previos: (checkbox)</label>
+                <input type="checkbox" name="primario" id="primario" value="primario">HTML
+                <input type="checkbox" name="secundario" id="secundario" value="secundario">CSS
+                <input type="checkbox" name="terciario" id="terciario" value="terciario">Bootstrap
+                <input type="checkbox" name="universitario" id="universitario" value="universitario">Javascript
+                <input type="checkbox" name="otro" id="otro" value="otro">Typescript
+                <input type="checkbox" name="otro" id="otro" value="otro">Angular
+                <input type="checkbox" name="otro" id="otro" value="otro">Base de Datos
+                <input type="checkbox" name="otro" id="otro" value="otro">Python
+                <input type="checkbox" name="otro" id="otro" value="otro">Django
+            </div>
+            <br>
+            <div>
+                <label for="estudios">Estudios: (Select)</label>
+                <select name="estudios" id="estudios">
+                    <option value="1">Primario</option>
+                    <option value="2">Secundario</option>
+                    <option value="3">Terciario</option>
+                    <option value="4">Universitario</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Comentarios:</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </menu>
+
+    <footer>
+        <a class="icono" href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a class="icono" href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a class="icono" href="">
+            <i class="fa-brands fa-pinterest"></i>
+        </a>
+        <a class="icono" href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="icono" href="">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <br>
+        <p>Derechos Reservados @2024</p>
+        <br>
+    </footer>
+    <script src="https://kit.fontawesome.com/2cb1076079.js" crossorigin="anonymous"></script>
+</body>
+</html>

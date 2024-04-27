@@ -1,0 +1,12 @@
+h1 {
+    /* padding: 10px; */
+    border: 2px solid blue;
+}
+
+.content {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    max-width: 500px;
+    overflow: hidden;
+}

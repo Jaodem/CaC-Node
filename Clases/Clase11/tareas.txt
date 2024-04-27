@@ -1,0 +1,12 @@
+* Agregar Footer
+
+* ¿Dónde está el h1? -> https://www.mercadolibre.com.ar/
+
+* <h1 class = "clipped">Mercado Libre</h1>
+
+* Agregar Colores hexadecimales
+
+* header CSS:
+    Trabajar los margenes en una sola linea
+
+* overflow: hidden;

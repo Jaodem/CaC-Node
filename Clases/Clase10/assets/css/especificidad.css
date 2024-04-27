@@ -1,0 +1,50 @@
+/* p {
+    color: red !important;
+} */
+
+/* body {
+    background-image: url("https://imgs.search.brave.com/M5MkWlL7MYWYG2p1Wgs9sLrbrqO-PPdg_S6Qi1m3JSE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c3VwZXJoZXJvZGIu/Y29tL3BpY3R1cmVz/Mi9wb3J0cmFpdHMv/MTAvMDUwLzE2MDky/LmpwZz92PTE1NTM1/OTk1NzY");
+    background-size: cover;
+} */
+
+#primer_parrafo {
+    color: blue;
+}
+
+.parrafo {
+    color: green;
+}
+
+/* p {
+    color: orange;
+    font-size: 1em;
+    background-color: blue;
+} */
+
+.pixel {
+    font-size: 16PX;
+}
+
+.parrafo1 {
+    font-size: 16px;
+}
+
+.parrafo2 {
+    font-size: 24px;
+}
+
+.parrafo3 {
+    font-size: 32px;
+}
+
+.parrafo4 {
+    font-style: normal;
+}
+
+.parrafo5 {
+    font-style: italic;
+}
+
+.parrafo6 {
+    font-style: oblique;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    position: relative;
+}
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;;
+}
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: sticky;
+}

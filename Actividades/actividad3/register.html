@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina de Mamá</title>
+</head>
+<body>
+    <header style="background-color: orange;">
+        <nav>
+            <a style="background-color: chocolate;" href="index.html">Home</a>
+            <a style="background-color: chocolate;" href="about.html">Acerca de mí</a>
+            <a style="background-color: chocolate;" href="contact.html">Contacto</a>
+            <a style="background-color: chocolate;" href="register.html">Regístrese</a>
+            <a style="background-color: chocolate;" href="sucursales.html">Sucursales</a>
+        </nav>
+        <br>
+        <h1 style="text-align: center;">La Cocina de Mamá</h1>
+    </header>
+
+    <menu>
+        <h2>Formulario de Registro</h2>
+        <form action="show_data.html" target="_blank">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombres" placeholder="Ingrese su nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            </div>
+            <br>
+            <div>
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección" required>
+            </div>
+            <br>
+            <div>
+                <label for="ciudad">Ciudad</label>
+                <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese su ciudad" required>
+            </div>
+            <br>
+            <div>
+                <label for="cp">Código Postal</label>
+                <input type="number" name="cp" id="cp" placeholder="Ingrese el código postal" required>
+            </div>
+            <br>
+            <div>
+                <label for="nacimiento">Fecha de Nacimiento (mm/dd/yyyy)</label>
+                <input type="date" name="nacimiento" id="nacimiento" required>
+            </div>
+            <br>
+            <div>
+                <label for="genero">
+                    Género
+                    <input type="radio" name="genero" id="hombre" value="hombre">Hombre
+                    <input type="radio" name="genero" id="mujer" value="mujer">Mujer
+                    <input type="radio" name="genero" id="otro" value="otro">Otro
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="">Estudios</label>
+                <input type="checkbox" name="primario" id="primario" value="primario"> Primario
+                <input type="checkbox" name="secundario" id="secundario" value="secundario">Secundario
+                <input type="checkbox" name="terciario" id="terciario" value="terciario">Terciario
+                <input type="checkbox" name="universitario" id="universitario" value="universitario">Universitario
+                <input type="checkbox" name="otro" id="otro" value="otro">Otro
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+            <div>
+                <label for="">Si usted hace click en el botón "Enviar", la informacioón será enviada a la página "show_data.html".</label>
+            </div>
+        </form>
+    </menu>
+
+    <footer style="background-color: orange; text-align: center;">
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-pinterest"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <br>
+        <p>Derechos Reservados @2024</p>
+        <br>
+    </footer>
+    <script src="https://kit.fontawesome.com/2cb1076079.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icono {
+    color: white;
+}
+
+.nav {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+}

@@ -1,0 +1,26 @@
+/* .oblicua, .veinticuatro {
+    font-style: oblique;
+    font-size: 44px;
+} */
+
+.borde {
+    border: 12px dashed red;
+}
+
+.oblicua {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    font-style: oblique;
+    font-family: "Roboto Mono", monospace;
+    background-color: blue;
+}
+
+.italic {
+    font-style: normal;
+}
+
+.veinticuatro {
+    font-size: 34px;
+    /* background-color: blue; */
+}

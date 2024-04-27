@@ -1,0 +1,30 @@
+/* selector -> llaves -> propiedad : valor */
+
+/* Selector Universal: selecciona todos los elementos de HTML */
+* {
+    margin: 10px; /*margin establece el margen para los cuatro lados*/
+    padding: 5px; /*padding establece el espacio de relleno*/
+    background-color: lightgreen; /*cambia el color de relleno*/
+    font-family: Verdana; /*cambia el tipo de letra*/
+}
+
+/* Selector de etiqueta o tipo: se utiliza para seleccionar una etiqueta específica. */
+/* body {
+    background-color: wheat;
+} */
+
+p {
+    color: black;
+    font-style: italic;
+    font-size: 130%;
+}
+
+/* Selector de clase: se utiliza agregando el atributo class a los elementos que queramos aplicarles estilos. */
+.parrafo2 {
+    color: red;
+}
+
+/* Selector de identificador (id): similar a .class pero sólo se aplica a una etiqueta individual. */
+#identificador {
+    color: violet;
+}
